@@ -17,6 +17,7 @@ const messagesHr = document.getElementById("messages")
 
 
 sendButton.addEventListener("click", function() {
+    
     let inputValue = inputField.value
     
     push(messagesInDB, inputValue)
@@ -26,6 +27,7 @@ sendButton.addEventListener("click", function() {
 
 
 onValue(messagesInDB, function(snapshot) {
+   
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
     
@@ -70,3 +72,10 @@ function AppendItemToShoppingList(item) {
     
     messagesHr.append(newEl)
 }
+
+
+
+
+
+
+
