@@ -15,6 +15,7 @@ const inputField = document.getElementById("input")
 const sendButton = document.getElementById("send")
 const messagesHr = document.getElementById("messages")
 
+
 sendButton.addEventListener("click", function() {
     let inputValue = inputField.value
     
@@ -38,7 +39,7 @@ onValue(messagesInDB, function(snapshot) {
             AppendItemToShoppingList(currentItem)
         }    
     } else {
-        messagesHr.innerHTML = "No items here... yet"
+        messagesHr.innerHTML = "No messages here... yet"
     }
 })
 
