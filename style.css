@@ -41,10 +41,8 @@ h3 {
    font-size: 20px;
    line-height: 25px;
    font-family: Inter;
-   /*to Hide scroll bar of the textArea*/
    overflow: hidden;
    resize: none;
-   /* CSS for input text */
    padding-left: 0.4em;
    padding-bottom: 80px;
    width: 317px;
@@ -63,7 +61,6 @@ h3 {
    border-radius: 8px;
    background: #28A9F1;
    margin: 15px 0;
-   /*CSS for Font of button*/
    font-family: Josefin Sans;
    font-size: 22px;
    font-weight: 700;
@@ -79,7 +76,6 @@ ul {
    list-style: none;
    padding: 0;
    gap: 15px;
-   /* Wrap text in multiple line to fit it in the desired width   */
    width: 327px;
    word-wrap: break-word;
    color: white;
