@@ -4,7 +4,6 @@ body {
    background: #111827;
 }
 
-
 .container {
    display: flex;
    flex-direction: column;
@@ -12,12 +11,10 @@ body {
    margin: 30px auto;
 }
 
-
 #img {
    width: 110px;
    margin: 0px auto;
 }
-
 
 h1 {
    font-family: Josefin Sans;
@@ -29,7 +26,6 @@ h1 {
    margin: 20px 20px;
 }
 
-
 h3 {
    color: #FFFFFF;
    font-family: Josefin Sans;
@@ -40,7 +36,6 @@ h3 {
    text-align: center;
    padding-bottom: 0px;
 }
-
 
 #input {
    background: #444059;
@@ -62,15 +57,12 @@ h3 {
    width: 317px;
    height: 10px;
 }
-
-
 ::placeholder {
    font-family: Inter;
    font-size: 15px;
    color: #8F8F8F;
    line-height: 25px;
 }
-
 
 #send {
    width: 327px;
@@ -87,12 +79,9 @@ h3 {
    line-height: 22px;
    text-align: center;
 }
-
-
 #send:hover {
    background: #91C8E4;
 }
-
 
 ul {
    display: flex;
@@ -106,8 +95,6 @@ ul {
    word-wrap: break-word;
    color: white;
 }
-
-
 ul li {
    background-color: #D4E2D4;
    box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.2);
@@ -117,10 +104,7 @@ ul li {
    text-align: center;
    font-size: 20px;
    color: #0C134F;
-
 }
-
-
 ul li:hover {
    background-color: #FAF3F0;
    cursor: text;
