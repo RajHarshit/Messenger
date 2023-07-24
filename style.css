@@ -1,0 +1,122 @@
+body {
+   margin: 0;
+   padding: 0;
+   background: #111827;
+}
+
+
+.container {
+   display: flex;
+   flex-direction: column;
+   max-width: 280px;
+   margin: 30px auto;
+}
+
+
+#img {
+   width: 110px;
+   margin: 0px auto;
+}
+
+
+h1 {
+   font-family: Josefin Sans;
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 25px;
+   text-align: left;
+   color: #FFFFFF;
+   margin: 20px 20px;
+}
+
+
+h3 {
+   color: #FFFFFF;
+   font-family: Josefin Sans;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: center;
+   padding-bottom: 0px;
+}
+
+
+#input {
+   background: #444059;
+   color: #8F8F8F;
+   text-align: left;
+   border-radius: 8px;
+   border: none;
+   font-size: 20px;
+   line-height: 25px;
+   font-family: Inter;
+
+   /*to Hide scroll bar of the textArea*/
+   overflow: hidden;
+   resize: none;
+
+   /* CSS for input text */
+   padding-left: 0.4em;
+   padding-bottom: 80px;
+   width: 317px;
+   height: 10px;
+}
+
+
+::placeholder {
+   font-family: Inter;
+   font-size: 15px;
+   color: #8F8F8F;
+   line-height: 25px;
+}
+
+
+#send {
+   width: 327px;
+   height: 61px;
+   border: none;
+   border-radius: 8px;
+   background: #28A9F1;
+   margin: 15px 0;
+
+   /*CSS for Font of button*/
+   font-family: Josefin Sans;
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 22px;
+   text-align: center;
+}
+
+
+ul {
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   padding: 0;
+   gap: 15px;
+
+   /* Wrap text in multiple line to fit it in the desired width   */
+   width: 327px;
+   word-wrap: break-word;
+   color: white;
+}
+
+
+ul li {
+   background-color: #D4E2D4;
+   box-shadow: 0px 1px 4px rgb(0, 0, 0, 0.2);
+   padding: 15px;
+   border-radius: 8px;
+   flex-grow: 1;
+   text-align: center;
+   font-size: 20px;
+   color: #0C134F;
+
+}
+
+
+ul li:hover {
+   background-color: #FAF3F0;
+   cursor: text;
+}
